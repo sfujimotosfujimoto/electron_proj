@@ -2,10 +2,14 @@
   "name": "electron_proj",
   "version": "1.0.0",
   "description": "an electron project",
-  "main": "main.js",
+  "main": "./app/main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "sfujimoto",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.2"
+  }
 }
